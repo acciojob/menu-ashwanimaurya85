@@ -1,12 +1,53 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+/* styles.css */
 
-button{
-    color: #27aedb;
+.app {
     text-align: center;
+    padding: 20px;
+  }
+  
+  .categories {
+    margin: 20px 0;
+  }
+  
+  .categories button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .dishes {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-}
+  }
+  
+  .dish-card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .dish-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .dish-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .dish-card p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  /* Add more styles as needed */
+  
